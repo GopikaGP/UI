@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@300;400&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+/* .Container {
+  display: 'block'; 
+  width: 700px;
+   padding: 30px;
+  margin: 0 auto;
+  
+} */
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+@keyframes loaderSwipeAnim{
+  0%{
+      left: -100%;
+  }
+  100%{
+      left: 100%;
+  }
+}

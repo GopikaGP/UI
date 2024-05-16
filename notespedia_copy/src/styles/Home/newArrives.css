@@ -1,0 +1,213 @@
+/* product two
+    
+
+/* new */
+
+.card{
+   
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+  --bs-border-color-translucent: transparent !important;
+  
+ 
+}
+.card-body{
+padding:0px !important;
+}
+.newArrives{
+ 
+ padding-left: 10px;
+}
+.card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  
+  .card-text {
+    color: black;
+    font-size: 0.8rem;
+    width: 14rem;
+    text-align: justify;
+    font-weight: 500;
+    padding-top: 4px;
+  }
+  .price-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content:space-around; */
+    gap: 0.5rem;
+  }
+  .staring_number{
+    display: flex;
+    flex-direction: row;
+    color: rgb(90, 89, 89);
+  }
+  .custom-card{
+    height: 100%;
+    width: 100%;
+  }
+.card-img-top{
+  height: 100%;
+  width: 100%;
+}
+.card-img-1{
+  height: 300px;
+ 
+}
+  /* .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    width: 40px;
+    height: 40px;
+    background-color: black !important;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+  } */
+  
+  .arrow-left,
+  .arrow-right {
+    border: solid  rgb(95,99,104);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .arrow-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .arrow-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .arrow_place_left{
+    padding-left: 8px;
+    padding-top: 8px;
+  }
+  .arrow_place_right{
+    padding-top: 7px;
+  }
+  .custom-next-arrow {
+    right: 10px; /* Adjust the position as needed */
+  }
+  
+  .custom-prev-arrow {
+    left: 10px; /* Adjust the position as needed */
+  }
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1; 
+    padding-left: 1rem !important;
+    padding-top: 0.5rem; /* Ensure the arrow is above other elements */
+    background-color: #fff !important;
+    height: 56px;
+    width: 56px;
+    opacity: 0; /* Hide arrows by default */
+    transition: opacity 0.3s ease; /* Add a transition for a smoother effect */
+  }
+  
+  
+  .newArrives:hover .custom-arrow {
+    opacity: 1;  /* Show arrows when .newArrives is being hovered */
+  }
+  .custom-arrow.custom-next-arrow:hover {
+    background-color: #fff !important; /* Change this to your desired hover background color */
+  }
+  
+  /* Custom Previous Arrow styles */
+  .custom-arrow.custom-prev-arrow:hover {
+    background-color: #fff !important; /* Change this to your desired hover background color */
+  }
+  
+  /* .arrow-left,
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: inline-block;
+  }
+  
+  .arrow-left {
+  
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  } */
+  
+  /* .custom-next-arrow {
+    right: 10px;
+  } */
+  
+  /* .custom-prev-arrow {
+    left: 10px;
+  } */
+  .price-line{
+    text-decoration-line: line-through;
+    text-decoration-color:red ;
+    color: rgb(90, 89, 89);
+  }
+  .custom-prev-arrow {
+    left: -18px;
+    top: 10rem;
+}
+.custom-next-arrow {
+
+  right: -22px;
+  top: 10rem;
+}
+.Title_new{
+  padding-left: 1rem;
+  padding-top:2rem ;
+  padding-bottom: 2rem;
+  font-size: 1.4rem;
+ font-weight: 500;
+}
+.home_main{
+  background-color: #EAF4F1;
+}
+.card-home{
+  background-color: #EAF4F1;
+}
+.custom-arrow.custom-next-arrow:hover {
+  background-color:  #fff !important; /* Change this to your desired hover background color */
+}
+
+/* Custom Previous Arrow styles */
+.custom-arrow.custom-prev-arrow:hover {
+  background-color:  #fff !important;/* Change this to your desired hover background color */
+}
+  @media (min-width: 768px) {
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 18% !important;
+    }
+  }
+  @media (min-width: 1200px){
+
+.css-1oqqzyl-MuiContainer-root {
+    max-width: 1264px !important;
+}
+  }
+  @media (min-width: 768px){
+    .col-md-9 {
+    flex: 0 0 auto;
+    width: 82%;
+}
+  }

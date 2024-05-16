@@ -1,0 +1,213 @@
+.main_parent{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.card-signin{
+    width: 33vw;
+}
+
+.signin-card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 10px #F8F8FB;
+  
+   
+  
+    justify-content: center;
+}
+.signin-inp{
+    box-sizing: border-box;
+    justify-items: center;
+    width: 432px;
+    height: 52px;
+    
+    background: #FFFFFF;
+    border: 1px solid #C2C5E1;
+    border-radius: 2px;
+    margin-left: 13px;
+    padding-left: 15px;
+    
+}
+.signin-but{
+    color: white;
+ width: 432px;
+height: 47px;
+left: 744px;
+top: 860px;
+border-color:#05CF64;
+background:#05CF64;
+border-radius: 3px;
+margin-left: 13px;
+margin-bottom: 15px;
+}
+.signin-but:disabled{
+    opacity: 0.4;
+    /* background-color: #FFC0CB; */
+    color: white;
+    border-color: gray;
+}
+.err{
+    padding-left: 15px;
+    color: red;
+    font-size: 15px;
+}
+
+@media  screen and (max-width:480px){ 
+    .sponce-img{
+        background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 400px;
+    height: 83px;
+    margin-left: 50px;
+    padding-top: 1px;
+    }
+    /* .first-card{
+        width: 500px;
+        height: 236px;
+        margin-left: 0px;
+        right: 0px;
+        top: 125px;
+        background: #F6F5FF; 
+    } */
+    /* .login-child-1{
+        padding-left: 65px;
+        padding-top: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #0D0E43;
+        font-weight: bold;
+        font-size: 35px;
+    } */
+    .card-body-items{
+    color: black;
+    text-decoration: none;
+   
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.err{
+    font-size: 10px;
+}
+    }
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .sponce-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 450px;
+    top: auto;
+    height: 63px;
+    margin-left: 20px;
+        
+    }
+    .signin-card{
+        margin-left: 30px;
+        width: 350px;
+        height: 300px;
+        line-height: 13px;
+     }
+     .signin-inp{
+         box-sizing: border-box;
+         justify-items: center;
+         width: 325px;
+         height: 32px;
+         left: 745px;
+         top: 677px;
+         background: #FFFFFF;
+         border: 1px solid #C2C5E1;
+         border-radius: 2px;
+         margin-left: 13px;
+ }
+
+ .signin-but{
+     color: white;
+      width: 325px;
+     height: 37px;
+     left: 744px;
+     top: 860px;
+   
+     border-radius: 3px;
+     margin-left: 13px;
+     }
+     .err{
+        font-size: 10px;
+     }
+ }
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .sponce-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 750px;
+    height: 83px;
+    margin-left: 100px;
+    padding-top: 1px;
+        
+    }
+}
+@media (max-width:800px){
+    .signin-card{
+       margin-left: 65px;
+       width: 350px;
+       height: 300px;
+       line-height: 13px;
+    }
+    .signin-inp{
+        box-sizing: border-box;
+        justify-items: center;
+        width: 325px;
+        height: 32px;
+        left: 745px;
+        top: 677px;
+        background: #FFFFFF;
+        border: 1px solid #C2C5E1;
+        border-radius: 2px;
+        margin-left: 13px;
+}
+.signin-but{
+    color: white;
+     width: 325px;
+    height: 37px;
+    left: 744px;
+    top: 860px;
+   
+    margin-left: 13px;
+    }
+}
+@media (max-width:480px){
+    .-card{
+     
+       width: 350px;
+       height: 300px;
+       line-height: 13px;
+    }
+    .signin-inp{
+        box-sizing: border-box;
+        justify-items: center;
+        width: 325px;
+        height: 32px;
+        left: 745px;
+        top: 677px;
+        background: #FFFFFF;
+        border: 1px solid #C2C5E1;
+        border-radius: 2px;
+        margin-left: 13px;
+}
+.signin-but{
+    color: white;
+     width: 325px;
+    height: 37px;
+    left: 744px;
+    top: 860px;
+ 
+    margin-left: 13px;
+    }
+}

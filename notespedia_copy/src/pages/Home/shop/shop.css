@@ -1,0 +1,48 @@
+.d-flex-shop{
+    display:flex;
+    gap:0.5rem;
+}
+.box-imgs{
+    width: 201px;
+    height: 239px;
+}
+.box-imgs2{
+    width: 222px;
+    height: 267px;
+  
+}
+
+.img1{
+    height: 100% !important;
+    width: 100% !important;
+}
+.col-md-9-shop{
+    width: 58%;
+}
+.col-md-3-shop{
+    width: 26% !important;
+   
+}
+.row-shop{
+    display: flex !important;
+    justify-content: center !important;
+}
+.down_p{
+    padding-top: 1.7rem;
+}
+.card-shop{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.btn_home_shop{
+   background-color:  #05CF64;
+   border-color: #05CF64;
+}
+.Shop_container{
+    background-color: white;
+}
+.col-md-9-shop{
+    padding-left: 9rem;
+}
+
+/* cartsilder */

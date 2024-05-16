@@ -1,0 +1,44 @@
+.profile_main{
+    background-color: #EAF4F1;
+}
+.name_section_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dh_up{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content_userprofile{
+    gap: 1rem;
+}
+/* subscription */
+.card_custom_subscription{
+  width: auto !important;
+  font-size: 0.9rem !important;
+}
+.sub_btn{
+    background-color:  #05CF64;
+    border-color:  #05CF64;
+    color: white;
+}
+.sub_btn:hover{
+    background-color: #147441;
+}
+.sub_btn:active{
+    background-color: #0c6f3a;
+}
+.main_part_profile{
+    display: flex;
+    justify-content: center;
+}
+.card_profile{
+    border-radius: 0px !important;
+}
+.link_modify_user{
+    color: #228852 !important;
+}
+.link_modify_user:hover{
+    color: #147441 !important;
+}

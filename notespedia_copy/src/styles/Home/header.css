@@ -1,0 +1,26 @@
+.navbar-haeder-color {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+    box-shadow:
+    
+    0 0 0 2px white,
+    0.2em 0.1em 1em  rgb(195, 191, 191);
+}
+.input_search{
+    background-color: white;
+    border-color: rgba(85, 68, 82, 0.13);;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(147, 137, 137, 0.19); */
+    width: 22vw;
+    height: 40px;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+}
+.navbar-brand{
+    height: 49px;
+    width: 200px;
+}
+.logo_img{
+    width: 100%;
+    margin-top: -12px;
+
+}

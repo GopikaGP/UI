@@ -1,0 +1,87 @@
+/*see allreview styling*/
+
+h6{
+
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 26px;
+}
+.rating{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+
+.btn-r1{
+    width:100px;
+    height:35px;
+    border:1px solid;
+    padding: 5px 5px;
+    border-color:  #4fef9a;
+    border-radius :.8em;
+    font-size: 13px;
+    margin-top :15px; 
+    margin-left: 15px;
+    cursor: pointer;
+    
+   
+}
+.btn-r2{
+
+    width:100px;
+    height:35px;
+   
+    background-color: #05CF64;
+    border-radius :.8em;
+    font-size: 13px;
+    border:none;
+    margin-left: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.r3011{
+    
+    margin-left: 65px;
+    margin-top :-45px; 
+    font-size: 12px;
+
+}
+.star{
+    padding: 2px;
+    padding-left: 3px;
+}
+.rev0-star{
+    margin-left: 65px;
+    margin-top :-15px; 
+    
+
+}
+.rev-star{
+    
+    
+    font-size: 14px;
+}
+.index {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+.index>p {
+    line-height:17px;
+    margin-top: 10px;
+    
+}
+
+.progress {
+    padding-left:10px;
+    margin-top:20px;
+    height: 12px;
+    line-height: 5px;
+    
+}
+.progress-bar{
+border-radius: 1.5rem;
+
+}
